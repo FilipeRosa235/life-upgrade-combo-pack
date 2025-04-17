@@ -1,4 +1,3 @@
-
 import { BookCover } from "@/components/BookCover";
 import { BenefitCard } from "@/components/BenefitCard";
 import { Testimonial } from "@/components/Testimonial";
@@ -29,10 +28,8 @@ import {
 import { useEffect, useState } from "react";
 
 const Index = () => {
-  // Estado para rastrear se o usuário rolou para baixo
   const [scrolled, setScrolled] = useState(false);
   
-  // Monitora o scroll para mostrar o sticky CTA
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 500) {
@@ -46,7 +43,6 @@ const Index = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  // Função para ir até a seção de compra
   const scrollToCheckout = () => {
     const checkoutSection = document.getElementById("checkout");
     if (checkoutSection) {
@@ -56,7 +52,6 @@ const Index = () => {
   
   return (
     <div className="min-h-screen bg-gradient-to-b from-white to-blue-50">
-      {/* Sticky CTA que aparece ao rolar */}
       {scrolled && (
         <div className="fixed bottom-0 left-0 right-0 bg-white shadow-lg p-4 z-50 flex justify-center items-center gap-4 animate-fade-in">
           <span className="font-bold text-green-600">📚 4 eBooks + Bônus</span>
@@ -66,7 +61,6 @@ const Index = () => {
         </div>
       )}
       
-      {/* Seção Hero */}
       <section className="relative overflow-hidden pt-20 pb-16 px-4 md:pt-32 md:pb-24">
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-2 gap-8 items-center">
@@ -124,7 +118,6 @@ const Index = () => {
         </div>
       </section>
       
-      {/* Seção de Problema/Solução */}
       <section className="py-16 px-4 bg-gray-50">
         <div className="max-w-5xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-900">
@@ -176,14 +169,12 @@ const Index = () => {
         </div>
       </section>
       
-      {/* Seção de Benefícios dos eBooks */}
       <section className="py-16 px-4 bg-white">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-16 text-gray-900">
             O Que Você Vai <span className="text-primary">Descobrir</span> Em Cada eBook
           </h2>
           
-          {/* eBook 1 - Produtividade */}
           <div className="mb-20">
             <div className="flex flex-col md:flex-row gap-8 items-center mb-8">
               <BookCover 
@@ -214,7 +205,6 @@ const Index = () => {
             </div>
           </div>
           
-          {/* eBook 2 - Mindfulness */}
           <div className="mb-20">
             <div className="flex flex-col md:flex-row gap-8 items-center mb-8 md:flex-row-reverse">
               <BookCover 
@@ -245,7 +235,6 @@ const Index = () => {
             </div>
           </div>
           
-          {/* eBook 3 - Hábitos */}
           <div className="mb-20">
             <div className="flex flex-col md:flex-row gap-8 items-center mb-8">
               <BookCover 
@@ -276,7 +265,6 @@ const Index = () => {
             </div>
           </div>
           
-          {/* eBook 4 - Inteligência Emocional */}
           <div className="mb-12">
             <div className="flex flex-col md:flex-row gap-8 items-center mb-8 md:flex-row-reverse">
               <BookCover 
@@ -315,7 +303,6 @@ const Index = () => {
         </div>
       </section>
       
-      {/* Seção de Prova Social */}
       <section className="py-16 px-4 bg-gray-50">
         <div className="max-w-5xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-900">
@@ -351,7 +338,6 @@ const Index = () => {
         </div>
       </section>
       
-      {/* Seção de Bônus */}
       <section className="py-16 px-4 bg-white">
         <div className="max-w-5xl mx-auto">
           <div className="relative">
@@ -402,7 +388,6 @@ const Index = () => {
         </div>
       </section>
       
-      {/* Seção de Autoridade/Credibilidade */}
       <section className="py-16 px-4 bg-gradient-to-b from-gray-50 to-white">
         <div className="max-w-5xl mx-auto text-center">
           <div className="mb-12">
@@ -437,7 +422,6 @@ const Index = () => {
         </div>
       </section>
       
-      {/* Seção de Checkout/Oferta */}
       <section id="checkout" className="py-16 px-4 bg-gradient-to-b from-blue-50 to-white">
         <div className="max-w-4xl mx-auto">
           <div className="bg-white rounded-2xl shadow-xl overflow-hidden">
@@ -509,11 +493,19 @@ const Index = () => {
               <div className="flex flex-col md:flex-row gap-8 items-center justify-between mb-8">
                 <div>
                   <p className="text-lg font-bold mb-1">Valor Total:</p>
-                  <div className="flex items-center gap-2">
+                  <div className="flex flex-col">
                     <p className="text-sm text-gray-500 line-through">R$ 594,00</p>
                     <p className="text-3xl font-bold text-success">R$ 97,00</p>
+                    <p className="text-sm text-success font-medium">Economize R$ 497,00 (83% de desconto)</p>
+                    <div className="mt-2 bg-primary/5 rounded-lg p-3">
+                      <p className="text-primary font-semibold">
+                        Em até 12x de R$ 9,70
+                      </p>
+                      <p className="text-sm text-gray-600">
+                        ou R$ 97,00 à vista
+                      </p>
+                    </div>
                   </div>
-                  <p className="text-sm text-success font-medium">Economize R$ 497,00 (83% de desconto)</p>
                 </div>
                 
                 <CountdownTimer />
@@ -529,15 +521,27 @@ const Index = () => {
                   </p>
                 </div>
                 
-                <CtaButton large className="w-full py-6">
-                  GARANTIR ACESSO IMEDIATO
-                </CtaButton>
-                
-                <div className="flex items-center justify-center gap-3">
-                  <Download className="w-5 h-5 text-gray-600" />
-                  <p className="text-gray-600">Acesso imediato após o pagamento</p>
+                <div className="flex flex-col gap-4">
+                  <CtaButton large className="w-full py-6">
+                    GARANTIR ACESSO IMEDIATO
+                  </CtaButton>
+                  
+                  <div className="grid grid-cols-3 gap-2 items-center">
+                    <div className="flex items-center justify-center gap-2 p-2 bg-gray-50 rounded-lg">
+                      <img src="/pix.svg" alt="PIX" className="h-5" />
+                      <span className="text-sm font-medium">PIX</span>
+                    </div>
+                    <div className="flex items-center justify-center gap-2 p-2 bg-gray-50 rounded-lg">
+                      <img src="/card.svg" alt="Cartão" className="h-5" />
+                      <span className="text-sm font-medium">Cartão</span>
+                    </div>
+                    <div className="flex items-center justify-center gap-2 p-2 bg-gray-50 rounded-lg">
+                      <img src="/boleto.svg" alt="Boleto" className="h-5" />
+                      <span className="text-sm font-medium">Boleto</span>
+                    </div>
+                  </div>
                 </div>
-                
+
                 <div className="flex justify-center items-center gap-4 text-gray-600">
                   <div className="flex items-center gap-1">
                     <ShieldCheck className="w-5 h-5" />
@@ -554,7 +558,6 @@ const Index = () => {
         </div>
       </section>
       
-      {/* FAQ */}
       <section className="py-16 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-900">
@@ -606,7 +609,6 @@ const Index = () => {
         </div>
       </section>
       
-      {/* Footer */}
       <footer className="py-8 px-4 bg-gray-100">
         <div className="max-w-5xl mx-auto text-center">
           <p className="text-gray-600 text-sm mb-4">
