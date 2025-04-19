@@ -13,8 +13,8 @@
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 210 100% 50%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 265 89% 66%;
+    --primary-foreground: 222.2 47.4% 11.2%;
 
     --secondary: 210 40% 96.1%;
     --secondary-foreground: 222.2 47.4% 11.2%;
@@ -102,18 +102,25 @@
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background-soft text-foreground antialiased;
+    font-feature-settings: "ss01", "ss02", "cv01", "cv02", "cv03";
   }
 
   .hero-gradient {
-    background: linear-gradient(135deg, #8B5CF6 0%, #6366F1 100%);
+    background: linear-gradient(135deg, theme('colors.primary.soft') 0%, theme('colors.primary.muted') 100%);
   }
 
   .feature-gradient {
-    background: linear-gradient(135deg, rgba(139,92,246,0.1) 0%, rgba(99,102,241,0.1) 100%);
+    background: linear-gradient(135deg, 
+      theme('colors.background.soft') 0%, 
+      theme('colors.accent.soft') 100%
+    );
   }
   
   .pricing-gradient {
-    background: linear-gradient(135deg, #F8FAFC 0%, #EEF2FF 100%);
+    background: linear-gradient(135deg, 
+      theme('colors.background.DEFAULT') 0%, 
+      theme('colors.background.soft') 100%
+    );
   }
 }
