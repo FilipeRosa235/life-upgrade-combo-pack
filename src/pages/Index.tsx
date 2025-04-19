@@ -63,13 +63,14 @@ const Index = () => {
         <div className="max-w-6xl mx-auto relative">
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div className="text-center md:text-left">
-              <span className="inline-block bg-primary/20 text-primary-soft py-1 px-3 rounded-full text-sm font-semibold mb-4 animate-fade-in">
+              <span className="inline-block bg-primary/20 text-primary-soft py-2 px-4 rounded-full text-xs md:text-sm font-semibold mb-4 animate-fade-in tracking-wider uppercase">
                 SUA JORNADA DE TRANSFORMAÇÃO PESSOAL
               </span>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-6 leading-tight text-gray-900 dark:text-white">
-                <span className="text-secondary-purple">Transforme Sua Vida</span> Com 4 Poderosos eBooks Baseados em Ciência
+                <span className="text-secondary-purple block mb-2">Transforme Sua Vida</span> 
+                Com 4 Poderosos eBooks Baseados em Ciência
               </h1>
-              <p className="text-xl md:text-2xl text-gray-800 dark:text-gray-100 mb-8">
+              <p className="text-xl md:text-2xl text-gray-800 dark:text-gray-100 mb-8 max-w-prose">
                 De organização à inteligência emocional: o pacote completo para quem quer resultados reais em todas as áreas da vida
               </p>
               <div className="mb-8">
@@ -555,73 +556,3 @@ const Index = () => {
             </div>
           </div>
         </div>
-      </section>
-      
-      <section className="py-16 px-4 bg-white">
-        <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-900">
-            Perguntas Frequentes
-          </h2>
-          
-          <div className="space-y-6">
-            <div className="bg-gray-50 rounded-xl p-6">
-              <h3 className="text-xl font-bold mb-2">Como recebo os eBooks e materiais?</h3>
-              <p className="text-gray-700">
-                Imediatamente após a confirmação do pagamento, você receberá um email com os links para download de todos os eBooks e materiais do bônus em formato PDF.
-              </p>
-            </div>
-            
-            <div className="bg-gray-50 rounded-xl p-6">
-              <h3 className="text-xl font-bold mb-2">Em quais dispositivos posso ler os eBooks?</h3>
-              <p className="text-gray-700">
-                Os eBooks estão em formato PDF, compatível com praticamente todos os dispositivos: computadores, tablets, smartphones e e-readers. Você pode imprimir também, se preferir.
-              </p>
-            </div>
-            
-            <div className="bg-gray-50 rounded-xl p-6">
-              <h3 className="text-xl font-bold mb-2">Preciso ter conhecimento prévio nos temas?</h3>
-              <p className="text-gray-700">
-                Não! Os conteúdos foram criados pensando em iniciantes. Cada conceito é explicado de forma clara, com linguagem acessível e exemplos práticos para facilitar o entendimento.
-              </p>
-            </div>
-            
-            <div className="bg-gray-50 rounded-xl p-6">
-              <h3 className="text-xl font-bold mb-2">Quanto tempo tenho para consumir o material?</h3>
-              <p className="text-gray-700">
-                Não há prazo! Uma vez comprado, o acesso é permanente. Você pode estudar no seu próprio ritmo e revisitar os materiais sempre que precisar de inspiração ou recordar técnicas.
-              </p>
-            </div>
-            
-            <div className="bg-gray-50 rounded-xl p-6">
-              <h3 className="text-xl font-bold mb-2">E se eu não gostar do conteúdo?</h3>
-              <p className="text-gray-700">
-                Oferecemos garantia de satisfação. Se você não ficar satisfeito com o conteúdo, basta entrar em contato conosco em até 7 dias após a compra para um reembolso completo.
-              </p>
-            </div>
-          </div>
-          
-          <div className="text-center mt-12">
-            <CtaButton onClick={scrollToCheckout}>
-              Quero Transformar Minha Vida Agora!
-            </CtaButton>
-          </div>
-        </div>
-      </section>
-      
-      <footer className="py-8 px-4 bg-gray-100">
-        <div className="max-w-5xl mx-auto text-center">
-          <p className="text-gray-600 text-sm mb-4">
-            © 2025 Life Upgrade Combo Pack. Todos os direitos reservados.
-          </p>
-          <div className="flex justify-center gap-6">
-            <a href="#" className="text-gray-600 hover:text-primary">Termos de Uso</a>
-            <a href="#" className="text-gray-600 hover:text-primary">Política de Privacidade</a>
-            <a href="#" className="text-gray-600 hover:text-primary">Contato</a>
-          </div>
-        </div>
-      </footer>
-    </div>
-  );
-};
-
-export default Index;
