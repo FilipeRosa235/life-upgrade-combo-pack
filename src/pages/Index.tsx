@@ -1,3 +1,4 @@
+
 import { BookCover } from "@/components/BookCover";
 import { CtaButton } from "@/components/CtaButton";
 import { CountdownTimer } from "@/components/CountdownTimer";
@@ -556,3 +557,9 @@ const Index = () => {
             </div>
           </div>
         </div>
+      </section>
+    </div>
+  );
+};
+
+export default Index;
