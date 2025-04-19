@@ -3,7 +3,7 @@ import { cn } from "@/lib/utils";
 import { CSSProperties } from "react";
 
 interface BookCoverProps {
-  color: string;
+  color?: string;
   title: string;
   subtitle?: string;
   className?: string;
@@ -11,7 +11,7 @@ interface BookCoverProps {
   image?: string;
 }
 
-export function BookCover({ color, title, subtitle, className, style, image }: BookCoverProps) {
+export function BookCover({ color = "#9b87f5", title, subtitle, className, style, image }: BookCoverProps) {
   if (image) {
     return (
       <div 
@@ -20,12 +20,15 @@ export function BookCover({ color, title, subtitle, className, style, image }: B
           "transform transition-all duration-300 hover:scale-105",
           className
         )}
+        style={style}
       >
-        <img 
-          src={image} 
-          alt={title}
-          className="w-full h-full object-cover"
-        />
+        <div className="w-full h-full">
+          <img 
+            src={image} 
+            alt={title}
+            className="w-full h-full object-contain bg-white"
+          />
+        </div>
         <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
           <div className="text-white">
             <h3 className="text-lg font-extrabold leading-tight">{title}</h3>
@@ -51,4 +54,3 @@ export function BookCover({ color, title, subtitle, className, style, image }: B
     </div>
   );
 }
-
