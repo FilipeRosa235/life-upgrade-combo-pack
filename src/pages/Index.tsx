@@ -1,8 +1,26 @@
 import { BookCover } from "@/components/BookCover";
 import { CtaButton } from "@/components/CtaButton";
 import { CountdownTimer } from "@/components/CountdownTimer";
+import { Testimonial } from "@/components/Testimonial";
 import { 
   ArrowRight, 
+  Brain, 
+  Calendar, 
+  CheckCircle, 
+  Clock, 
+  FileText, 
+  Gift, 
+  Heart, 
+  LightbulbIcon, 
+  ListChecks, 
+  BarChart3, 
+  Users, 
+  BadgeCheck,
+  BookIcon,
+  User,
+  LayoutPanelTop,
+  ShieldCheck,
+  HeartHandshake
 } from "lucide-react";
 import { useEffect, useState } from "react";
 
