@@ -1,30 +1,8 @@
-
 import { BookCover } from "@/components/BookCover";
-import { BenefitCard } from "@/components/BenefitCard";
-import { Testimonial } from "@/components/Testimonial";
 import { CtaButton } from "@/components/CtaButton";
 import { CountdownTimer } from "@/components/CountdownTimer";
 import { 
-  Brain, 
-  Calendar, 
-  CheckCircle, 
-  Clock, 
-  Download, 
-  FileText, 
-  Gift, 
-  Heart, 
-  LightbulbIcon, 
-  ListChecks, 
-  BarChart3, 
-  Sparkles, 
-  Users, 
   ArrowRight, 
-  BadgeCheck,
-  BookIcon,
-  User,
-  LayoutPanelTop,
-  ShieldCheck,
-  HeartHandshake
 } from "lucide-react";
 import { useEffect, useState } from "react";
 
@@ -71,7 +49,7 @@ const Index = () => {
                 COMBO COMPLETO DE DESENVOLVIMENTO PESSOAL
               </span>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-6 leading-tight text-gray-900 dark:text-white">
-                <span className="text-primary">Transforme Sua Vida</span> Com 4 Poderosos eBooks Baseados em Ciência
+                <span className="text-secondary-purple">Transforme Sua Vida</span> Com 4 Poderosos eBooks Baseados em Ciência
               </h1>
               <p className="text-xl md:text-2xl text-gray-800 dark:text-gray-100 mb-8">
                 De organização à inteligência emocional: o pacote completo para quem quer resultados reais em todas as áreas da vida
