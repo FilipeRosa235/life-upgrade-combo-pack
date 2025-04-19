@@ -51,18 +51,19 @@ const Index = () => {
   };
   
   return (
-    <div className="min-h-screen bg-gradient-to-b from-white to-blue-50">
+    <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
       {scrolled && (
-        <div className="fixed bottom-0 left-0 right-0 bg-white shadow-lg p-4 z-50 flex justify-center items-center gap-4 animate-fade-in">
-          <span className="font-bold text-green-600">📚 4 eBooks + Bônus</span>
+        <div className="fixed bottom-0 left-0 right-0 bg-white/80 backdrop-blur-md shadow-lg border-t p-4 z-50 flex justify-center items-center gap-4 animate-fade-in">
+          <span className="font-bold text-purple-600">📚 4 eBooks + Bônus</span>
           <CtaButton onClick={scrollToCheckout}>
             Garantir Acesso Imediato
           </CtaButton>
         </div>
       )}
       
-      <section className="relative overflow-hidden pt-20 pb-16 px-4 md:pt-32 md:pb-24">
-        <div className="max-w-6xl mx-auto">
+      <section className="relative overflow-hidden hero-gradient pt-20 pb-16 px-4 md:pt-32 md:pb-24">
+        <div className="absolute inset-0 bg-[url('/mesh-gradient.png')] opacity-30 mix-blend-overlay"></div>
+        <div className="max-w-6xl mx-auto relative">
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div className="text-center md:text-left">
               <span className="inline-block bg-primary/10 text-primary py-1 px-3 rounded-full text-sm font-semibold mb-4 animate-fade-in">
@@ -118,9 +119,9 @@ const Index = () => {
         </div>
       </section>
       
-      <section className="py-16 px-4 bg-gray-50">
+      <section className="py-16 px-4 feature-gradient">
         <div className="max-w-5xl mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-900">
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-6 text-gray-900">
             Você Está <span className="text-red-500">Cansado</span> de...
           </h2>
           <div className="grid md:grid-cols-2 gap-6 mb-12">
@@ -171,8 +172,8 @@ const Index = () => {
       
       <section className="py-16 px-4 bg-white">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-16 text-gray-900">
-            O Que Você Vai <span className="text-primary">Descobrir</span> Em Cada eBook
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-16 bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-indigo-600">
+            O Que Você Vai <span className="font-extrabold">Descobrir</span> Em Cada eBook
           </h2>
           
           <div className="mb-20">
@@ -422,14 +423,15 @@ const Index = () => {
         </div>
       </section>
       
-      <section id="checkout" className="py-16 px-4 bg-gradient-to-b from-blue-50 to-white">
+      <section id="checkout" className="py-16 px-4 bg-gradient-to-b from-blue-50 to-white pricing-gradient">
         <div className="max-w-4xl mx-auto">
-          <div className="bg-white rounded-2xl shadow-xl overflow-hidden">
-            <div className="bg-primary text-white p-8 text-center">
-              <h2 className="text-3xl md:text-4xl font-bold mb-4">
+          <div className="bg-white/70 backdrop-blur-md rounded-2xl shadow-xl overflow-hidden border border-purple-100">
+            <div className="bg-gradient-to-r from-purple-600 to-indigo-600 text-white p-8 text-center relative overflow-hidden">
+              <div className="absolute inset-0 bg-[url('/mesh-gradient.png')] opacity-20 mix-blend-overlay"></div>
+              <h2 className="text-3xl md:text-4xl font-bold mb-4 relative z-10">
                 Transforme Sua Vida Hoje Mesmo!
               </h2>
-              <p className="text-xl">Acesso imediato aos 4 eBooks + Todos os Bônus</p>
+              <p className="text-xl relative z-10">Acesso imediato aos 4 eBooks + Todos os Bônus</p>
             </div>
             
             <div className="p-8">

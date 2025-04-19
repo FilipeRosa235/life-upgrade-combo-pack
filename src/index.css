@@ -37,7 +37,7 @@
     --success: 142 76% 36%;
     --success-foreground: 210 40% 98%;
     
-    --highlight: 217 96% 59%;
+    --highlight: 265 89% 66%;
     --highlight-foreground: 210 40% 98%;
 
     --sidebar-background: 0 0% 98%;
@@ -103,5 +103,17 @@
 
   body {
     @apply bg-background text-foreground;
+  }
+
+  .hero-gradient {
+    background: linear-gradient(135deg, #8B5CF6 0%, #6366F1 100%);
+  }
+
+  .feature-gradient {
+    background: linear-gradient(135deg, rgba(139,92,246,0.1) 0%, rgba(99,102,241,0.1) 100%);
+  }
+  
+  .pricing-gradient {
+    background: linear-gradient(135deg, #F8FAFC 0%, #EEF2FF 100%);
   }
 }
