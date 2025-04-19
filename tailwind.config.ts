@@ -19,7 +19,6 @@ export default {
     },
     extend: {
       colors: {
-        // Mantendo as cores existentes e adicionando mais variações
         border: 'hsl(var(--border))',
         input: 'hsl(var(--input))',
         ring: 'hsl(var(--ring))',
@@ -38,7 +37,6 @@ export default {
           DEFAULT: 'hsl(var(--secondary))',
           foreground: 'hsl(var(--secondary-foreground))',
         },
-        // Adicionando mais variações de cores
         accent: {
           DEFAULT: 'hsl(var(--accent))',
           foreground: 'hsl(var(--accent-foreground))',
