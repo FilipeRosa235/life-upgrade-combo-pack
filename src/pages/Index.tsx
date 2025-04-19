@@ -88,30 +88,30 @@ const Index = () => {
             <div className="relative">
               <div className="grid grid-cols-2 gap-4">
                 <BookCover 
-                  color="linear-gradient(135deg, #1a73e8, #3a46e8)" 
-                  title="Produtividade & Organização" 
+                  image="/lovable-uploads/a0d199ea-bb2e-4665-ab25-50f66e590172.png"
+                  title="Produtividade & Organização"
                   className="animate-float"
                 />
                 <BookCover 
-                  color="linear-gradient(135deg, #239d60, #0ab68b)" 
+                  image="/lovable-uploads/cec96a43-700d-4e92-bca9-eef1a689e0ec.png"
                   title="Mindfulness & Redução de Estresse" 
                   className="translate-y-6 animate-float" 
                   style={{ animationDelay: "0.2s" }}
                 />
                 <BookCover 
-                  color="linear-gradient(135deg, #e84a3f, #ff7e4a)" 
+                  image="/lovable-uploads/cbd48b96-0b1d-4c70-8af2-3f627906c122.png"
                   title="Hábitos Positivos" 
                   className="translate-y-[-1rem] animate-float"
                   style={{ animationDelay: "0.4s" }}
                 />
                 <BookCover 
-                  color="linear-gradient(135deg, #8f4bde, #b54bec)" 
+                  image="/lovable-uploads/ad92b1f9-a651-4360-9a9f-ca970828c5cc.png"
                   title="Inteligência Emocional"
                   className="translate-y-4 animate-float" 
                   style={{ animationDelay: "0.6s" }}
                 />
               </div>
-              <div className="absolute -top-8 -right-4 bg-highlight text-white text-sm font-bold py-2 px-4 rounded-full rotate-12 shadow-md">
+              <div className="absolute -top-8 -right-4 bg-highlight text-white text-sm font-bold py-2 px-4 rounded-full rotate-12 shadow-lg">
                 + Bônus exclusivos!
               </div>
             </div>
@@ -179,7 +179,7 @@ const Index = () => {
           <div className="mb-20">
             <div className="flex flex-col md:flex-row gap-8 items-center mb-8">
               <BookCover 
-                color="linear-gradient(135deg, #1a73e8, #3a46e8)" 
+                image="/lovable-uploads/a0d199ea-bb2e-4665-ab25-50f66e590172.png"
                 title="Produtividade & Organização"
                 className="w-48 flex-shrink-0"
               />
@@ -209,7 +209,7 @@ const Index = () => {
           <div className="mb-20">
             <div className="flex flex-col md:flex-row gap-8 items-center mb-8 md:flex-row-reverse">
               <BookCover 
-                color="linear-gradient(135deg, #239d60, #0ab68b)" 
+                image="/lovable-uploads/cec96a43-700d-4e92-bca9-eef1a689e0ec.png"
                 title="Mindfulness & Redução de Estresse"
                 className="w-48 flex-shrink-0"
               />
@@ -239,7 +239,7 @@ const Index = () => {
           <div className="mb-20">
             <div className="flex flex-col md:flex-row gap-8 items-center mb-8">
               <BookCover 
-                color="linear-gradient(135deg, #e84a3f, #ff7e4a)" 
+                image="/lovable-uploads/cbd48b96-0b1d-4c70-8af2-3f627906c122.png"
                 title="Hábitos Positivos"
                 className="w-48 flex-shrink-0"
               />
@@ -269,7 +269,7 @@ const Index = () => {
           <div className="mb-12">
             <div className="flex flex-col md:flex-row gap-8 items-center mb-8 md:flex-row-reverse">
               <BookCover 
-                color="linear-gradient(135deg, #8f4bde, #b54bec)" 
+                image="/lovable-uploads/ad92b1f9-a651-4360-9a9f-ca970828c5cc.png"
                 title="Inteligência Emocional"
                 className="w-48 flex-shrink-0"
               />
