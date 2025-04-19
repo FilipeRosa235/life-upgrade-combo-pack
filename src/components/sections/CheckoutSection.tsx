@@ -1,6 +1,5 @@
 
 import { CheckCircle, Gift, HeartHandshake, ShieldCheck } from "lucide-react";
-import { CountdownTimer } from "@/components/CountdownTimer";
 import { CtaButton } from "@/components/CtaButton";
 
 export function CheckoutSection() {
@@ -91,8 +90,6 @@ export function CheckoutSection() {
                   </div>
                 </div>
               </div>
-              
-              <CountdownTimer />
             </div>
             
             <div className="flex flex-col gap-6">
@@ -143,3 +140,4 @@ export function CheckoutSection() {
     </section>
   );
 }
+

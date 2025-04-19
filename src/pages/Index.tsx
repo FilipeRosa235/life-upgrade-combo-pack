@@ -1,4 +1,3 @@
-
 import { useEffect, useState } from "react";
 import { HeroSection } from "@/components/sections/HeroSection";
 import { ProblemsSection } from "@/components/sections/ProblemsSection";
