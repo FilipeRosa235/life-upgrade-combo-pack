@@ -14,7 +14,7 @@ export function HeroSection({ scrollToCheckout }: HeroSectionProps) {
       <div className="max-w-6xl mx-auto relative">
         <div className="grid md:grid-cols-2 gap-8 items-center">
           <div className="text-center md:text-left">
-            <span className="inline-block bg-primary/20 text-primary-soft py-2 px-4 rounded-full text-xs md:text-sm font-semibold mb-4 animate-fade-in tracking-wider uppercase">
+            <span className="inline-block bg-primary/40 text-white py-2 px-4 rounded-full text-xs md:text-sm font-semibold mb-4 animate-fade-in tracking-wider uppercase shadow-md">
               SUA JORNADA DE TRANSFORMAÇÃO PESSOAL
             </span>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-6 leading-tight text-gray-900 dark:text-white">
