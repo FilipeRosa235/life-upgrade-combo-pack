@@ -30,15 +30,15 @@ export function BookDetailsSection({ scrollToCheckout }: BookDetailsSectionProps
               <div className="flex flex-col gap-3">
                 <div className="flex items-start gap-3">
                   <CheckCircle className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
-                  <p className="text-gray-700">Técnica de priorização que elimina 80% da procrastinação, desenvolvida por neurocientistas</p>
+                  <p className="text-gray-700">Técnicas comprovadas de gestão de tempo e produtividade (GTD, Matriz de Eisenhower, Kanban, SMART).</p>
                 </div>
                 <div className="flex items-start gap-3">
                   <CheckCircle className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
-                  <p className="text-gray-700">O método dos "blocos de foco" que amplia sua capacidade de concentração em 3X</p>
+                  <p className="text-gray-700">Estratégias de organização do ambiente para reduzir o estresse mental.</p>
                 </div>
                 <div className="flex items-start gap-3">
                   <CheckCircle className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
-                  <p className="text-gray-700">Estratégia de organização de ambiente que reduz o estresse mental e o tempo perdido</p>
+                  <p className="text-gray-700">Como eliminar desperdícios de tempo e manter o foco nas prioridades certas.</p>
                 </div>
               </div>
             </div>
@@ -60,15 +60,15 @@ export function BookDetailsSection({ scrollToCheckout }: BookDetailsSectionProps
               <div className="flex flex-col gap-3">
                 <div className="flex items-start gap-3">
                   <CheckCircle className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
-                  <p className="text-gray-700">Exercícios de 3 minutos que provocam uma resposta imediata de relaxamento, comprovados por pesquisas em neuroimagem</p>
+                  <p className="text-gray-700">Exercícios rápidos de 3 minutos para relaxamento imediato, validados por neuroimagem.</p>
                 </div>
                 <div className="flex items-start gap-3">
                   <CheckCircle className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
-                  <p className="text-gray-700">Técnica de "desconexão do piloto automático" que reduz pensamentos ruminantes em 60%</p>
+                  <p className="text-gray-700">Técnicas práticas de respiração, ancoragem no corpo e meditação.</p>
                 </div>
                 <div className="flex items-start gap-3">
                   <CheckCircle className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
-                  <p className="text-gray-700">O protocolo de 8 semanas que demonstrou diminuir fisicamente o centro de estresse no cérebro</p>
+                  <p className="text-gray-700">Um plano prático para iniciar no Mindfulness e trazer mais calma ao seu dia a dia.</p>
                 </div>
               </div>
             </div>
@@ -90,15 +90,15 @@ export function BookDetailsSection({ scrollToCheckout }: BookDetailsSectionProps
               <div className="flex flex-col gap-3">
                 <div className="flex items-start gap-3">
                   <CheckCircle className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
-                  <p className="text-gray-700">A fórmula "gatilho-rotina-recompensa" que programa seu cérebro para mudanças automáticas</p>
+                  <p className="text-gray-700">Como criar hábitos positivos de forma estruturada e sustentável.</p>
                 </div>
                 <div className="flex items-start gap-3">
                   <CheckCircle className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
-                  <p className="text-gray-700">Como superar o "platô de hábitos" que faz 92% das pessoas desistirem após 2 semanas</p>
+                  <p className="text-gray-700">Como manter a disciplina, fortalecer sua identidade e superar recaídas.</p>
                 </div>
                 <div className="flex items-start gap-3">
                   <CheckCircle className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
-                  <p className="text-gray-700">Sistema de "encadeamento de hábitos" que torna a mudança quase inevitável, mesmo para os mais resistentes</p>
+                  <p className="text-gray-700">Um plano de 21 dias para conquistar mudanças profundas, mesmo para quem sempre desistiu.</p>
                 </div>
               </div>
             </div>
@@ -120,15 +120,15 @@ export function BookDetailsSection({ scrollToCheckout }: BookDetailsSectionProps
               <div className="flex flex-col gap-3">
                 <div className="flex items-start gap-3">
                   <CheckCircle className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
-                  <p className="text-gray-700">Os 4 pilares da inteligência emocional que transformam conflitos em oportunidades de conexão</p>
+                  <p className="text-gray-700">Técnicas práticas para manter o controle emocional em situações difíceis.</p>
                 </div>
                 <div className="flex items-start gap-3">
                   <CheckCircle className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
-                  <p className="text-gray-700">Técnica de "pausa emocional" que impede reações impulsivas em momentos de pressão</p>
+                  <p className="text-gray-700">Como desenvolver a autoconsciência emocional de forma prática e aplicada.</p>
                 </div>
                 <div className="flex items-start gap-3">
                   <CheckCircle className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
-                  <p className="text-gray-700">Como desenvolver empatia genuína que fortalece relacionamentos pessoais e profissionais</p>
+                  <p className="text-gray-700">Um desafio de 7 dias para fortalecer sua inteligência emocional e melhorar suas relações.</p>
                 </div>
               </div>
             </div>
