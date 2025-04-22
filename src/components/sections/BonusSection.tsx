@@ -1,7 +1,12 @@
+
 import { Calendar, FileText, LightbulbIcon, ListChecks } from "lucide-react";
 import { CtaButton } from "../CtaButton";
 
 export function BonusSection() {
+  const openHotmartLink = () => {
+    window.open('https://pay.hotmart.com/T99347832E', '_blank');
+  };
+
   return (
     <section className="py-16 px-4 bg-white">
       <div className="max-w-5xl mx-auto">
@@ -61,7 +66,7 @@ export function BonusSection() {
               <div className="flex justify-center mt-10">
                 <CtaButton
                   large
-                  onClick={() => window.open('https://pay.hotmart.com/T99347832E', '_blank')}
+                  onClick={openHotmartLink}
                 >
                   Quero Garantir Meu Pacote Completo Agora!
                 </CtaButton>

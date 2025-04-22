@@ -3,6 +3,10 @@ import { CheckCircle, Gift, HeartHandshake, ShieldCheck } from "lucide-react";
 import { CtaButton } from "@/components/CtaButton";
 
 export function CheckoutSection() {
+  const openHotmartLink = () => {
+    window.open('https://pay.hotmart.com/T99347832E', '_blank');
+  };
+
   return (
     <section id="checkout" className="py-16 px-4 bg-gradient-to-b from-blue-50 to-white pricing-gradient">
       <div className="max-w-4xl mx-auto">
@@ -103,7 +107,7 @@ export function CheckoutSection() {
               </div>
               
               <div className="flex flex-col gap-4">
-                <CtaButton large className="w-full py-6">
+                <CtaButton large className="w-full py-6" onClick={openHotmartLink}>
                   GARANTIR ACESSO IMEDIATO
                 </CtaButton>
                 
@@ -140,4 +144,3 @@ export function CheckoutSection() {
     </section>
   );
 }
-
