@@ -1,4 +1,3 @@
-
 import { Calendar, FileText, LightbulbIcon, ListChecks } from "lucide-react";
 import { CtaButton } from "../CtaButton";
 
@@ -11,7 +10,7 @@ export function BonusSection() {
     <section className="py-16 px-4 bg-white relative">
       <div className="max-w-5xl mx-auto">
         <div className="relative">
-          <div className="absolute -top-6 -left-6 md:-top-10 md:-left-10 w-16 h-16 md:w-28 md:h-28 bg-highlight rounded-full flex items-center justify-center text-white font-bold text-sm md:text-3xl z-10 shadow-xl animate-pulse-slow">
+          <div className="absolute -top-6 -left-6 md:-top-10 md:-left-10 w-24 h-24 md:w-28 md:h-28 bg-highlight rounded-full flex items-center justify-center text-white font-bold text-sm md:text-3xl z-10 shadow-xl animate-pulse-slow">
             BÔNUS!
           </div>
           
