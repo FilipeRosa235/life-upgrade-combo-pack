@@ -1,5 +1,6 @@
 
 import { Calendar, FileText, LightbulbIcon, ListChecks } from "lucide-react";
+import { CtaButton } from "@/components/CtaButton";
 
 export function BonusSection() {
   return (
