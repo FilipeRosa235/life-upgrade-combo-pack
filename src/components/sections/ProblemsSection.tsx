@@ -1,4 +1,3 @@
-
 import { ArrowRight, BarChart3, Brain, Clock, Heart } from "lucide-react";
 import { CtaButton } from "@/components/CtaButton";
 
@@ -7,6 +6,10 @@ interface ProblemsSectionProps {
 }
 
 export function ProblemsSection({ scrollToCheckout }: ProblemsSectionProps) {
+  const openHotmartLink = () => {
+    window.open('https://pay.hotmart.com/T99347832E', '_blank');
+  };
+
   return (
     <section className="py-16 px-4 feature-gradient">
       <div className="max-w-5xl mx-auto text-center">
@@ -52,7 +55,7 @@ export function ProblemsSection({ scrollToCheckout }: ProblemsSectionProps) {
         </p>
         
         <div className="flex justify-center mt-8">
-          <CtaButton onClick={scrollToCheckout}>
+          <CtaButton onClick={openHotmartLink}>
             Quero Essa Solução Agora <ArrowRight className="ml-2 w-5 h-5" />
           </CtaButton>
         </div>

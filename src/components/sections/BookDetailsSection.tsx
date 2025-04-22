@@ -1,4 +1,3 @@
-
 import { ArrowRight, CheckCircle } from "lucide-react";
 import { BookCover } from "@/components/BookCover";
 import { CtaButton } from "@/components/CtaButton";
@@ -8,6 +7,10 @@ interface BookDetailsSectionProps {
 }
 
 export function BookDetailsSection({ scrollToCheckout }: BookDetailsSectionProps) {
+  const openHotmartLink = () => {
+    window.open('https://pay.hotmart.com/T99347832E', '_blank');
+  };
+
   return (
     <section className="py-16 px-4 bg-white">
       <div className="max-w-5xl mx-auto">
@@ -136,7 +139,7 @@ export function BookDetailsSection({ scrollToCheckout }: BookDetailsSectionProps
         </div>
         
         <div className="flex justify-center mt-12">
-          <CtaButton onClick={scrollToCheckout}>
+          <CtaButton onClick={openHotmartLink}>
             Quero Todos os 4 eBooks Agora! <ArrowRight className="ml-2 w-5 h-5" />
           </CtaButton>
         </div>
