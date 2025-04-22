@@ -22,24 +22,34 @@ export function BonusSection() {
               
               <div className="grid md:grid-cols-2 gap-6 mb-8">
                 <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
-                  <FileText className="w-8 h-8 text-highlight mb-4" />
-                  <h3 className="text-xl font-bold mb-2">Planners Semanais e Diários</h3>
-                  <p className="text-gray-200">Modelos personalizados para organizar seu tempo e tarefas com eficiência máxima</p>
-                </div>
-                <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
                   <ListChecks className="w-8 h-8 text-highlight mb-4" />
-                  <h3 className="text-xl font-bold mb-2">Checklists de Hábitos</h3>
-                  <p className="text-gray-200">Acompanhe seu progresso e mantenha a consistência com nossos modelos cientificamente estruturados</p>
+                  <h3 className="text-xl font-bold mb-2">Checklist Diário de Produtividade</h3>
+                  <p className="text-gray-200">Use esse checklist no início e no final de cada dia útil. Ele ajuda a manter o foco, priorizar com clareza e ajustar sua rotina com consistência.</p>
                 </div>
                 <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
-                  <Calendar className="w-8 h-8 text-highlight mb-4" />
-                  <h3 className="text-xl font-bold mb-2">Rastreadores de Progresso</h3>
-                  <p className="text-gray-200">Visualize sua evolução e celebre conquistas com ferramentas que estimulam a continuidade</p>
+                  <FileText className="w-8 h-8 text-highlight mb-4" />
+                  <h3 className="text-xl font-bold mb-2">Modelo Prático de Planejamento Semanal</h3>
+                  <p className="text-gray-200">Planeje sua semana em 30 minutos. Use este modelo no domingo à noite ou na manhã de segunda-feira.</p>
                 </div>
                 <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
                   <LightbulbIcon className="w-8 h-8 text-highlight mb-4" />
-                  <h3 className="text-xl font-bold mb-2">Cartões de Reflexão</h3>
-                  <p className="text-gray-200">Prompts de perguntas poderosas que estimulam insights transformadores e autoconhecimento</p>
+                  <h3 className="text-xl font-bold mb-2">Checklist de Práticas Rápidas de Mindfulness</h3>
+                  <p className="text-gray-200">Nem sempre é possível parar por 10 minutos ou sentar para meditar. Por isso, este checklist traz práticas rápidas e poderosas, que cabem em qualquer rotina, inclusive nos dias mais caóticos.</p>
+                </div>
+                <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
+                  <FileText className="w-8 h-8 text-highlight mb-4" />
+                  <h3 className="text-xl font-bold mb-2">Guia de Perguntas para Autoconhecimento Emocional e Checklist Diário de Emoções</h3>
+                  <p className="text-gray-200">Use essas perguntas semanalmente para aprofundar sua reflexão.</p>
+                </div>
+                <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
+                  <ListChecks className="w-8 h-8 text-highlight mb-4" />
+                  <h3 className="text-xl font-bold mb-2">Modelo de Diário de Hábitos</h3>
+                  <p className="text-gray-200">Use para refletir, registrar e fortalecer a construção de novos comportamentos.</p>
+                </div>
+                <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
+                  <Calendar className="w-8 h-8 text-highlight mb-4" />
+                  <h3 className="text-xl font-bold mb-2">Planner de Acompanhamento de 30 Dias</h3>
+                  <p className="text-gray-200">Simples, visual, direto — ideal para imprimir e deixar visível.</p>
                 </div>
               </div>
               
