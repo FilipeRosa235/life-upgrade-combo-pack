@@ -57,6 +57,15 @@ export function BonusSection() {
                 <p className="text-lg font-bold mb-2">Valor do Bônus: <span className="line-through">R$ 197,00</span></p>
                 <p className="text-2xl font-bold text-highlight">VOCÊ GANHA TOTALMENTE GRÁTIS!</p>
               </div>
+
+              <div className="flex justify-center mt-10">
+                <CtaButton
+                  large
+                  onClick={() => window.open('https://pay.hotmart.com/T99347832E', '_blank')}
+                >
+                  Quero Garantir Meu Pacote Completo Agora!
+                </CtaButton>
+              </div>
             </div>
           </div>
         </div>
