@@ -8,6 +8,10 @@ interface HeroSectionProps {
 }
 
 export function HeroSection({ scrollToCheckout }: HeroSectionProps) {
+  const openHotmartLink = () => {
+    window.open('https://pay.hotmart.com/T99347832E', '_blank');
+  };
+
   return (
     <section className="relative overflow-hidden hero-gradient pt-20 pb-16 px-4 md:pt-32 md:pb-24">
       <div className="absolute inset-0 bg-[url('/mesh-gradient.png')] opacity-30 mix-blend-overlay"></div>
@@ -38,7 +42,7 @@ export function HeroSection({ scrollToCheckout }: HeroSectionProps) {
   De organização à inteligência emocional: o pacote completo para quem quer resultados reais em todas as áreas da vida
 </p>
             <div className="mb-8">
-              <CtaButton large onClick={scrollToCheckout}>
+              <CtaButton large onClick={openHotmartLink}>
                 Quero Transformar Minha Vida Agora!
               </CtaButton>
             </div>
@@ -79,3 +83,4 @@ export function HeroSection({ scrollToCheckout }: HeroSectionProps) {
     </section>
   );
 }
+
