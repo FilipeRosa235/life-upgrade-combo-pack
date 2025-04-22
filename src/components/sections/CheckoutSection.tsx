@@ -1,4 +1,3 @@
-
 import { CheckCircle, Gift, HeartHandshake, ShieldCheck } from "lucide-react";
 import { CtaButton } from "@/components/CtaButton";
 
@@ -96,46 +95,35 @@ export function CheckoutSection() {
               </div>
             </div>
             
-            <div className="flex flex-col gap-6">
-              <div className="bg-red-50 border border-red-200 rounded-lg p-4 text-center">
-                <p className="text-red-600 font-bold">
-                  ATENÇÃO: Oferta por tempo limitado para apenas 50 pessoas!
-                </p>
-                <p className="text-red-600 text-sm">
-                  (Restam apenas 7 vagas)
-                </p>
-              </div>
+            <div className="flex flex-col gap-4">
+              <CtaButton large className="w-full py-6" onClick={openHotmartLink}>
+                GARANTIR ACESSO IMEDIATO
+              </CtaButton>
               
-              <div className="flex flex-col gap-4">
-                <CtaButton large className="w-full py-6" onClick={openHotmartLink}>
-                  GARANTIR ACESSO IMEDIATO
-                </CtaButton>
-                
-                <div className="grid grid-cols-3 gap-2 items-center">
-                  <div className="flex items-center justify-center gap-2 p-2 bg-gray-50 rounded-lg">
-                    <img src="/pix.svg" alt="PIX" className="h-5" />
-                    <span className="text-sm font-medium">PIX</span>
-                  </div>
-                  <div className="flex items-center justify-center gap-2 p-2 bg-gray-50 rounded-lg">
-                    <img src="/card.svg" alt="Cartão" className="h-5" />
-                    <span className="text-sm font-medium">Cartão</span>
-                  </div>
-                  <div className="flex items-center justify-center gap-2 p-2 bg-gray-50 rounded-lg">
-                    <img src="/boleto.svg" alt="Boleto" className="h-5" />
-                    <span className="text-sm font-medium">Boleto</span>
-                  </div>
+              <div className="grid grid-cols-3 gap-2 items-center">
+                <div className="flex items-center justify-center gap-2 p-2 bg-gray-50 rounded-lg">
+                  <img src="/pix.svg" alt="PIX" className="h-5" />
+                  <span className="text-sm font-medium">PIX</span>
+                </div>
+                <div className="flex items-center justify-center gap-2 p-2 bg-gray-50 rounded-lg">
+                  <img src="/card.svg" alt="Cartão" className="h-5" />
+                  <span className="text-sm font-medium">Cartão</span>
+                </div>
+                <div className="flex items-center justify-center gap-2 p-2 bg-gray-50 rounded-lg">
+                  <img src="/boleto.svg" alt="Boleto" className="h-5" />
+                  <span className="text-sm font-medium">Boleto</span>
                 </div>
               </div>
+            </div>
 
-              <div className="flex justify-center items-center gap-4 text-gray-600">
-                <div className="flex items-center gap-1">
-                  <ShieldCheck className="w-5 h-5" />
-                  <span className="text-sm">Pagamento Seguro</span>
-                </div>
-                <div className="flex items-center gap-1">
-                  <HeartHandshake className="w-5 h-5" />
-                  <span className="text-sm">Satisfação Garantida</span>
-                </div>
+            <div className="flex justify-center items-center gap-4 text-gray-600">
+              <div className="flex items-center gap-1">
+                <ShieldCheck className="w-5 h-5" />
+                <span className="text-sm">Pagamento Seguro</span>
+              </div>
+              <div className="flex items-center gap-1">
+                <HeartHandshake className="w-5 h-5" />
+                <span className="text-sm">Satisfação Garantida</span>
               </div>
             </div>
           </div>
