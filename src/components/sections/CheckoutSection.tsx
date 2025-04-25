@@ -1,3 +1,4 @@
+
 import { CheckCircle, Gift, HeartHandshake, ShieldCheck } from "lucide-react";
 import { CtaButton } from "@/components/CtaButton";
 
@@ -42,7 +43,7 @@ export function CheckoutSection() {
                 </ul>
               </div>
               <div className="text-right">
-                <p className="text-sm text-gray-500 line-through">R$ 397,00</p>
+                <p className="text-sm text-gray-500 line-through">R$ 197,00</p>
                 <p className="text-3xl font-bold text-primary">R$ 47,00</p>
               </div>
             </div>
@@ -80,9 +81,9 @@ export function CheckoutSection() {
               <div>
                 <p className="text-lg font-bold mb-1">Valor Total:</p>
                 <div className="flex flex-col">
-                  <p className="text-sm text-gray-500 line-through">R$ 594,00</p>
+                  <p className="text-sm text-gray-500 line-through">R$ 297,00</p>
                   <p className="text-3xl font-bold text-success">R$ 47,00</p>
-                  <p className="text-sm text-success font-medium">Economize R$ 547,00 (92% de desconto)</p>
+                  <p className="text-sm text-success font-medium">Economize R$ 250,00 (84% de desconto)</p>
                   <div className="mt-2 bg-primary/5 rounded-lg p-3">
                     <p className="text-primary font-semibold">
                       Em até 12x de R$ 4,70
@@ -132,3 +133,4 @@ export function CheckoutSection() {
     </section>
   );
 }
+
