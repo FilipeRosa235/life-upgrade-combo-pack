@@ -80,9 +80,9 @@ export function CheckoutSection() {
               <div>
                 <p className="text-lg font-bold mb-1">Valor Total:</p>
                 <div className="flex flex-col">
-                  <p className="text-sm text-gray-500 line-through">R$ 297,00</p>
+                  <p className="text-sm text-gray-500 line-through">R$ 197,00</p>
                   <p className="text-3xl font-bold text-success">R$ 47,00</p>
-                  <p className="text-sm text-success font-medium">Economize R$ 250,00 (84% de desconto)</p>
+                  <p className="text-sm text-success font-medium">Economize R$ 150,00 (76% de desconto)</p>
                   <div className="mt-2 bg-primary/5 rounded-lg p-3 text-center">
                     <p className="text-primary font-semibold">
                       Em até 12x de R$ 3,92
