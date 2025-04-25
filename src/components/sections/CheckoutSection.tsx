@@ -55,22 +55,22 @@ export function CheckoutSection() {
               <ul className="space-y-2">
                 <li className="flex items-center gap-2">
                   <CheckCircle className="w-5 h-5 text-success" />
-                  <span>Planners Semanais e Diários</span>
+                  <span>Checklist Diário de Produtividade</span>
                   <span className="ml-auto text-sm text-gray-500 line-through">R$ 5,90</span>
                 </li>
                 <li className="flex items-center gap-2">
                   <CheckCircle className="w-5 h-5 text-success" />
-                  <span>Checklists de Hábitos</span>
+                  <span>Modelo Prático de Planejamento Semanal</span>
                   <span className="ml-auto text-sm text-gray-500 line-through">R$ 5,90</span>
                 </li>
                 <li className="flex items-center gap-2">
                   <CheckCircle className="w-5 h-5 text-success" />
-                  <span>Rastreadores de Progresso</span>
+                  <span>Checklist de Práticas Rápidas de Mindfulness</span>
                   <span className="ml-auto text-sm text-gray-500 line-through">R$ 5,90</span>
                 </li>
                 <li className="flex items-center gap-2">
                   <CheckCircle className="w-5 h-5 text-success" />
-                  <span>Cartões de Reflexão</span>
+                  <span>Planner de Acompanhamento de 30 Dias</span>
                   <span className="ml-auto text-sm text-gray-500 line-through">R$ 5,90</span>
                 </li>
               </ul>
