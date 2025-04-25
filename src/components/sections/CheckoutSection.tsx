@@ -43,7 +43,7 @@ export function CheckoutSection() {
               </div>
               <div className="text-right">
                 <p className="text-sm text-gray-500 line-through">R$ 397,00</p>
-                <p className="text-3xl font-bold text-primary">R$ 97,00</p>
+                <p className="text-3xl font-bold text-primary">R$ 47,00</p>
               </div>
             </div>
             
@@ -81,14 +81,14 @@ export function CheckoutSection() {
                 <p className="text-lg font-bold mb-1">Valor Total:</p>
                 <div className="flex flex-col">
                   <p className="text-sm text-gray-500 line-through">R$ 594,00</p>
-                  <p className="text-3xl font-bold text-success">R$ 97,00</p>
-                  <p className="text-sm text-success font-medium">Economize R$ 497,00 (83% de desconto)</p>
+                  <p className="text-3xl font-bold text-success">R$ 47,00</p>
+                  <p className="text-sm text-success font-medium">Economize R$ 547,00 (92% de desconto)</p>
                   <div className="mt-2 bg-primary/5 rounded-lg p-3">
                     <p className="text-primary font-semibold">
-                      Em até 12x de R$ 9,70
+                      Em até 12x de R$ 4,70
                     </p>
                     <p className="text-sm text-gray-600">
-                      ou R$ 97,00 à vista
+                      ou R$ 47,00 à vista
                     </p>
                   </div>
                 </div>
