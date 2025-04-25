@@ -42,7 +42,7 @@ export function CheckoutSection() {
                 </ul>
               </div>
               <div className="text-right">
-                <p className="text-sm text-gray-500 line-through">R$ 197,00</p>
+                <p className="text-sm text-gray-500 line-through">R$ 120,00</p>
                 <p className="text-3xl font-bold text-primary">R$ 47,00</p>
               </div>
             </div>
@@ -56,22 +56,22 @@ export function CheckoutSection() {
                 <li className="flex items-center gap-2">
                   <CheckCircle className="w-5 h-5 text-success" />
                   <span>Planners Semanais e Diários</span>
-                  <span className="ml-auto text-sm text-gray-500 line-through">R$ 47,00</span>
+                  <span className="ml-auto text-sm text-gray-500 line-through">R$ 10,00</span>
                 </li>
                 <li className="flex items-center gap-2">
                   <CheckCircle className="w-5 h-5 text-success" />
                   <span>Checklists de Hábitos</span>
-                  <span className="ml-auto text-sm text-gray-500 line-through">R$ 47,00</span>
+                  <span className="ml-auto text-sm text-gray-500 line-through">R$ 10,00</span>
                 </li>
                 <li className="flex items-center gap-2">
                   <CheckCircle className="w-5 h-5 text-success" />
                   <span>Rastreadores de Progresso</span>
-                  <span className="ml-auto text-sm text-gray-500 line-through">R$ 47,00</span>
+                  <span className="ml-auto text-sm text-gray-500 line-through">R$ 10,00</span>
                 </li>
                 <li className="flex items-center gap-2">
                   <CheckCircle className="w-5 h-5 text-success" />
                   <span>Cartões de Reflexão</span>
-                  <span className="ml-auto text-sm text-gray-500 line-through">R$ 56,00</span>
+                  <span className="ml-auto text-sm text-gray-500 line-through">R$ 10,00</span>
                 </li>
               </ul>
             </div>
@@ -80,9 +80,9 @@ export function CheckoutSection() {
               <div>
                 <p className="text-lg font-bold mb-1">Valor Total:</p>
                 <div className="flex flex-col">
-                  <p className="text-sm text-gray-500 line-through">R$ 197,00</p>
+                  <p className="text-sm text-gray-500 line-through">R$ 160,00</p>
                   <p className="text-3xl font-bold text-success">R$ 47,00</p>
-                  <p className="text-sm text-success font-medium">Economize R$ 150,00 (76% de desconto)</p>
+                  <p className="text-sm text-success font-medium">Economize R$ 113,00 (71% de desconto)</p>
                   <div className="mt-2 bg-primary/5 rounded-lg p-3 text-center">
                     <p className="text-primary font-semibold">
                       Em até 12x de R$ 3,92

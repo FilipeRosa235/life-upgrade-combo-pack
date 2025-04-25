@@ -58,7 +58,7 @@ export function BonusSection() {
               </div>
               
               <div className="bg-highlight/20 border border-highlight rounded-xl p-6 text-center">
-                <p className="text-lg font-bold mb-2">Valor do Bônus: <span className="line-through">R$ 197,00</span></p>
+                <p className="text-lg font-bold mb-2">Valor do Bônus: <span className="line-through">R$ 40,00</span></p>
                 <p className="text-2xl font-bold text-highlight">VOCÊ GANHA TOTALMENTE GRÁTIS!</p>
               </div>
 
