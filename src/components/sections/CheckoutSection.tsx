@@ -85,7 +85,7 @@ export function CheckoutSection() {
                   <p className="text-sm text-success font-medium">Economize R$ 113,00 (71% de desconto)</p>
                   <div className="mt-2 bg-primary/5 rounded-lg p-3 text-center">
                     <p className="text-primary font-semibold">
-                      Em até 12x de R$ 3,92
+                      Em até 6x de R$ 7,83
                     </p>
                     <p className="text-sm text-gray-600">
                       ou R$ 47,00 à vista
